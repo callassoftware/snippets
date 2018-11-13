@@ -23,7 +23,7 @@ for (var theIndex = 0; theIndex < 10; theIndex++) {
 var theIndex = 10;
 var theResult = 0;
 while (theIndex > 0) {
-	
+
         theResult += 1;
         theIndex--;
 }
@@ -61,7 +61,3 @@ for (attribute in shark) {
 }
 
 // use this loop to iterate over objects
-
-
-
-
