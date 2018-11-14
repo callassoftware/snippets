@@ -39,9 +39,9 @@ floor = Math.floor(-5.004) // variable floor contains -> -6
 
 
 
-// Math.max / Math.min
-// Math.max returns the number with the highest value
-// Math.min returns the number with the lowest value
+// Math.max(x) / Math.min(x)
+// Math.max(x) returns the number with the highest value
+// Math.min(x) returns the number with the lowest value
 var array = [-3, -2, -1, 0, 1, 2, 3];
 var highest = Math.max(...array); // variable highest contains -> 3
 var lowest = Math.min(...array); // variable lowest contains -> -3
