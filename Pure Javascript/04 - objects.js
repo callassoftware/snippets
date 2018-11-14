@@ -39,7 +39,6 @@ var pet = {
 		return this.firstname + " " + this.lastname;
 	}
 }
-
 // The this keyword to the "owner" of the function.
 // In the example, this is the pet object that contains the fullname function.
 
