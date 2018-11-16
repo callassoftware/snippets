@@ -23,6 +23,17 @@ abs_diff = differenceBetweenTwoNumbers(1.234, 5.678); // variable abs_diff conta
 
 
 
+// isEven
+// returns true if num contains an even number
+function isEven(num) {
+	return num % 2 === 0;
+}
+
+var even = isEven(8); // variable even contains -> true
+even = isEven(33); // variable even contains -> false
+
+
+
 // Math.ceil(x)
 // returns the smallest integer greater than or equal to a given number
 var ceil = Math.ceil(0.88) // variable ceil contains -> 1
