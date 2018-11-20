@@ -9,6 +9,8 @@ function addValues( value1, value2, value3 ) {
 
 // Using a function simply uses the name
 var theResult = addValues( 1, 2, 3 );
+// theResult contains 6
 
 // And as the "+" operator in JavaScript also works for strings...
 var theResult2 = addValues( "Penguins ", "where ", "here!" );
+// theResult2 contains "Penguins where here!"

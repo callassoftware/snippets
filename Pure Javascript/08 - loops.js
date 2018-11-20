@@ -44,3 +44,20 @@ do {
         theIndex++;
 
 } while (theIndex < 10);
+
+
+
+// 4. for/in loop
+
+var shark = {
+    species: "great white",
+    color: "white",
+    numberOfTeeth: Infinity
+}
+var text = "";
+var attribute;
+for (attribute in shark) {
+	text += shark[attribute] + " ";
+}
+
+// use this loop to iterate over objects
