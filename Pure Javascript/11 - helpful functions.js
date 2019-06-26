@@ -99,5 +99,24 @@ if(isValidJson(json)) {
 
 
 
+// Sort and group an array of numbers
+// Returns: Array
+function arraySortAndCompress(arr) {
+	arr.sort((a, b) => a - b);
+	let ranges = [], first, second;
+	for(var i = 0; i < arr.length; i++) {
+		second = first = arr[i];
+		for(;arr[i + 1] - arr[i] == 1; i++) {
+			second = arr[i + 1];
+		}
+		ranges.push(first == second ? first : first + ' - ' + second);
+	}
+	return ranges;
+}
+
+// usage of ArraySortAndCompress(arr)
+var numbers = [1,2,3,4,5,8,9,10,167,168,169,11,12,13,45,46,47,48];
+var grouped_array = arraySortAndCompress(numbers);
+// output is ["1 - 5","8 - 13","45 - 48","167 - 169"]
 
 
